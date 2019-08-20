@@ -1,4 +1,4 @@
-#Activity partie 2
+# Activity partie 2
 Bienvenue dans cette activité où vous allez devoir manipuler les boucles et les méthodes afin de réaliser un tirage de loto !
 Je vais vous demander de réaliser un tirage de 7 chiffres aléatoires. Pour cela, il vous faudra procéder en 3 étapes: 
 Créez un tableau de 7 éléments 
