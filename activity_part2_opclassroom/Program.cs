@@ -24,7 +24,7 @@ namespace Activity1_opclassroom
             var dict = new Dictionary<int, int>();
 
             for (int i = 0; i < array.Length; i++)
-                array[i] = rndm.Next(1, 8);
+                array[i] = rndm.Next(1, 50);
             foreach (var nb in array)
             {
                 if (!dict.ContainsKey(nb))
@@ -38,7 +38,7 @@ namespace Activity1_opclassroom
             else
             {
                 for (int i = dict.Count; dict.Count != 7; i++)
-                    dict[i] = rndm.Next(1, 8);
+                    dict[i] = rndm.Next(1, 50);
                 display(dict);
             }
         }
